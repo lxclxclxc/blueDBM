@@ -1,19 +1,45 @@
-cmd_/home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../common/dev_stub.o := gcc -Wp,-MD,/home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../common/.dev_stub.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/4.8/include  -I./arch/x86/include -Iarch/x86/include/generated/uapi -Iarch/x86/include/generated  -Iinclude -I./arch/x86/include/uapi -Iarch/x86/include/generated/uapi -I./include/uapi -Iinclude/generated/uapi -include ./include/linux/kconfig.h -Iubuntu/include  -D__KERNEL__ -fno-pie -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -std=gnu89 -fno-pie -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mtune=generic -mno-red-zone -mcmodel=kernel -funit-at-a-time -maccumulate-outgoing-args -DCONFIG_X86_X32_ABI -DCONFIG_AS_CFI=1 -DCONFIG_AS_CFI_SIGNAL_FRAME=1 -DCONFIG_AS_CFI_SECTIONS=1 -DCONFIG_AS_FXSAVEQ=1 -DCONFIG_AS_SSSE3=1 -DCONFIG_AS_CRC32=1 -DCONFIG_AS_AVX=1 -DCONFIG_AS_AVX2=1 -DCONFIG_AS_SHA1_NI=1 -DCONFIG_AS_SHA256_NI=1 -pipe -Wno-sign-compare -fno-asynchronous-unwind-tables -fno-delete-null-pointer-checks -O2 --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fstack-protector -Wno-unused-but-set-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-var-tracking-assignments -pg -mfentry -DCC_USING_FENTRY -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes -DCC_HAVE_ASM_GOTO -I/home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../../include -I/home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../../common/utils -I/home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../../common/3rd -I/home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../common -D CONFIG_ENABLE_MSG -D CONFIG_ENABLE_DEBUG -D CONFIG_DEVICE_TYPE_RAMDRIVE -D KERNEL_MODE  -DMODULE  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(dev_stub)"  -D"KBUILD_MODNAME=KBUILD_STR(risa_dev_ramdrive)" -c -o /home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../common/.tmp_dev_stub.o /home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../common/dev_stub.c
+cmd_/home/lxc/workspace/bdbm_drv_fine_grained/frontend/kernel/../../ftl/algo/page_ftl.o := gcc -Wp,-MD,/home/lxc/workspace/bdbm_drv_fine_grained/frontend/kernel/../../ftl/algo/.page_ftl.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/4.8/include  -I./arch/x86/include -Iarch/x86/include/generated/uapi -Iarch/x86/include/generated  -Iinclude -I./arch/x86/include/uapi -Iarch/x86/include/generated/uapi -I./include/uapi -Iinclude/generated/uapi -include ./include/linux/kconfig.h -Iubuntu/include  -D__KERNEL__ -fno-pie -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -std=gnu89 -fno-pie -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mtune=generic -mno-red-zone -mcmodel=kernel -funit-at-a-time -maccumulate-outgoing-args -DCONFIG_X86_X32_ABI -DCONFIG_AS_CFI=1 -DCONFIG_AS_CFI_SIGNAL_FRAME=1 -DCONFIG_AS_CFI_SECTIONS=1 -DCONFIG_AS_FXSAVEQ=1 -DCONFIG_AS_SSSE3=1 -DCONFIG_AS_CRC32=1 -DCONFIG_AS_AVX=1 -DCONFIG_AS_AVX2=1 -DCONFIG_AS_SHA1_NI=1 -DCONFIG_AS_SHA256_NI=1 -pipe -Wno-sign-compare -fno-asynchronous-unwind-tables -fno-delete-null-pointer-checks -O2 --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fstack-protector -Wno-unused-but-set-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-var-tracking-assignments -pg -mfentry -DCC_USING_FENTRY -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes -DCC_HAVE_ASM_GOTO -I/home/lxc/workspace/bdbm_drv_fine_grained/frontend/kernel -I/home/lxc/workspace/bdbm_drv_fine_grained/frontend/kernel/../../include -I/home/lxc/workspace/bdbm_drv_fine_grained/frontend/kernel/../../common/utils -I/home/lxc/workspace/bdbm_drv_fine_grained/frontend/kernel/../../common/3rd -I/home/lxc/workspace/bdbm_drv_fine_grained/frontend/kernel/../../ftl -I/home/lxc/workspace/bdbm_drv_fine_grained/frontend/kernel/../../devices/common -D HASH_BLOOM=20 -D CONFIG_ENABLE_MSG -D CONFIG_ENABLE_DEBUG -D USE_PMU -D KERNEL_MODE -D USE_NEW_RMW  -DMODULE  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(page_ftl)"  -D"KBUILD_MODNAME=KBUILD_STR(robusta_drv)" -c -o /home/lxc/workspace/bdbm_drv_fine_grained/frontend/kernel/../../ftl/algo/.tmp_page_ftl.o /home/lxc/workspace/bdbm_drv_fine_grained/frontend/kernel/../../ftl/algo/page_ftl.c
 
-source_/home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../common/dev_stub.o := /home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../common/dev_stub.c
+source_/home/lxc/workspace/bdbm_drv_fine_grained/frontend/kernel/../../ftl/algo/page_ftl.o := /home/lxc/workspace/bdbm_drv_fine_grained/frontend/kernel/../../ftl/algo/page_ftl.c
 
-deps_/home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../common/dev_stub.o := \
-  include/linux/kernel.h \
-    $(wildcard include/config/lbdaf.h) \
-    $(wildcard include/config/preempt/voluntary.h) \
-    $(wildcard include/config/debug/atomic/sleep.h) \
-    $(wildcard include/config/mmu.h) \
-    $(wildcard include/config/prove/locking.h) \
-    $(wildcard include/config/panic/timeout.h) \
+deps_/home/lxc/workspace/bdbm_drv_fine_grained/frontend/kernel/../../ftl/algo/page_ftl.o := \
+  include/linux/module.h \
+    $(wildcard include/config/modules.h) \
+    $(wildcard include/config/sysfs.h) \
+    $(wildcard include/config/module/sig.h) \
+    $(wildcard include/config/modules/tree/lookup.h) \
+    $(wildcard include/config/unused/symbols.h) \
+    $(wildcard include/config/generic/bug.h) \
+    $(wildcard include/config/kallsyms.h) \
+    $(wildcard include/config/smp.h) \
+    $(wildcard include/config/tracepoints.h) \
     $(wildcard include/config/tracing.h) \
+    $(wildcard include/config/event/tracing.h) \
     $(wildcard include/config/ftrace/mcount/record.h) \
-  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
-  include/linux/linkage.h \
+    $(wildcard include/config/livepatch.h) \
+    $(wildcard include/config/module/unload.h) \
+    $(wildcard include/config/constructors.h) \
+    $(wildcard include/config/debug/set/module/ronx.h) \
+  include/linux/list.h \
+    $(wildcard include/config/debug/list.h) \
+  include/linux/types.h \
+    $(wildcard include/config/have/uid16.h) \
+    $(wildcard include/config/uid16.h) \
+    $(wildcard include/config/lbdaf.h) \
+    $(wildcard include/config/arch/dma/addr/t/64bit.h) \
+    $(wildcard include/config/phys/addr/t/64bit.h) \
+    $(wildcard include/config/64bit.h) \
+  include/uapi/linux/types.h \
+  arch/x86/include/uapi/asm/types.h \
+  include/uapi/asm-generic/types.h \
+  include/asm-generic/int-ll64.h \
+  include/uapi/asm-generic/int-ll64.h \
+  arch/x86/include/uapi/asm/bitsperlong.h \
+  include/asm-generic/bitsperlong.h \
+  include/uapi/asm-generic/bitsperlong.h \
+  include/uapi/linux/posix_types.h \
+  include/linux/stddef.h \
+  include/uapi/linux/stddef.h \
   include/linux/compiler.h \
     $(wildcard include/config/sparse/rcu/pointer.h) \
     $(wildcard include/config/trace/branch/profiling.h) \
@@ -27,41 +53,32 @@ deps_/home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../common/dev_st
     $(wildcard include/config/optimize/inlining.h) \
     $(wildcard include/config/gcov/kernel.h) \
     $(wildcard include/config/arch/use/builtin/bswap.h) \
-  include/uapi/linux/types.h \
-  arch/x86/include/uapi/asm/types.h \
-  include/uapi/asm-generic/types.h \
-  include/asm-generic/int-ll64.h \
-  include/uapi/asm-generic/int-ll64.h \
-  arch/x86/include/uapi/asm/bitsperlong.h \
-  include/asm-generic/bitsperlong.h \
-    $(wildcard include/config/64bit.h) \
-  include/uapi/asm-generic/bitsperlong.h \
-  include/uapi/linux/posix_types.h \
-  include/linux/stddef.h \
-  include/uapi/linux/stddef.h \
   arch/x86/include/asm/posix_types.h \
     $(wildcard include/config/x86/32.h) \
   arch/x86/include/uapi/asm/posix_types_64.h \
   include/uapi/asm-generic/posix_types.h \
+  include/linux/poison.h \
+    $(wildcard include/config/illegal/pointer/value.h) \
+  include/uapi/linux/const.h \
+  include/linux/kernel.h \
+    $(wildcard include/config/preempt/voluntary.h) \
+    $(wildcard include/config/debug/atomic/sleep.h) \
+    $(wildcard include/config/mmu.h) \
+    $(wildcard include/config/prove/locking.h) \
+    $(wildcard include/config/panic/timeout.h) \
+  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
+  include/linux/linkage.h \
   include/linux/stringify.h \
   include/linux/export.h \
     $(wildcard include/config/have/underscore/symbol/prefix.h) \
-    $(wildcard include/config/modules.h) \
     $(wildcard include/config/modversions.h) \
-    $(wildcard include/config/unused/symbols.h) \
   arch/x86/include/asm/linkage.h \
     $(wildcard include/config/x86/64.h) \
     $(wildcard include/config/x86/alignment/16.h) \
-  include/linux/types.h \
-    $(wildcard include/config/have/uid16.h) \
-    $(wildcard include/config/uid16.h) \
-    $(wildcard include/config/arch/dma/addr/t/64bit.h) \
-    $(wildcard include/config/phys/addr/t/64bit.h) \
   include/linux/bitops.h \
   arch/x86/include/asm/bitops.h \
     $(wildcard include/config/x86/cmov.h) \
   arch/x86/include/asm/alternative.h \
-    $(wildcard include/config/smp.h) \
     $(wildcard include/config/paravirt.h) \
   arch/x86/include/asm/asm.h \
   arch/x86/include/asm/ptrace.h \
@@ -69,7 +86,6 @@ deps_/home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../common/dev_st
   arch/x86/include/asm/segment.h \
     $(wildcard include/config/cc/stackprotector.h) \
     $(wildcard include/config/x86/32/lazy/gs.h) \
-  include/uapi/linux/const.h \
   arch/x86/include/asm/cache.h \
     $(wildcard include/config/x86/l1/cache/shift.h) \
     $(wildcard include/config/x86/internode/cache/shift.h) \
@@ -155,22 +171,6 @@ deps_/home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../common/dev_st
   include/uapi/linux/kernel.h \
   include/uapi/linux/sysinfo.h \
   include/linux/dynamic_debug.h \
-  include/linux/module.h \
-    $(wildcard include/config/sysfs.h) \
-    $(wildcard include/config/module/sig.h) \
-    $(wildcard include/config/modules/tree/lookup.h) \
-    $(wildcard include/config/generic/bug.h) \
-    $(wildcard include/config/kallsyms.h) \
-    $(wildcard include/config/tracepoints.h) \
-    $(wildcard include/config/event/tracing.h) \
-    $(wildcard include/config/livepatch.h) \
-    $(wildcard include/config/module/unload.h) \
-    $(wildcard include/config/constructors.h) \
-    $(wildcard include/config/debug/set/module/ronx.h) \
-  include/linux/list.h \
-    $(wildcard include/config/debug/list.h) \
-  include/linux/poison.h \
-    $(wildcard include/config/illegal/pointer/value.h) \
   include/linux/stat.h \
   arch/x86/include/uapi/asm/stat.h \
   include/uapi/linux/stat.h \
@@ -595,6 +595,26 @@ deps_/home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../common/dev_st
     $(wildcard include/config/have/mod/arch/specific.h) \
     $(wildcard include/config/modules/use/elf/rel.h) \
     $(wildcard include/config/modules/use/elf/rela.h) \
+  include/linux/slab.h \
+    $(wildcard include/config/debug/slab.h) \
+    $(wildcard include/config/failslab.h) \
+    $(wildcard include/config/slab.h) \
+    $(wildcard include/config/slub.h) \
+    $(wildcard include/config/slob.h) \
+  include/linux/kmemleak.h \
+    $(wildcard include/config/debug/kmemleak.h) \
+  include/linux/kasan.h \
+  /home/lxc/workspace/bdbm_drv_fine_grained/frontend/kernel/../../include/bdbm_drv.h \
+  /home/lxc/workspace/bdbm_drv_fine_grained/frontend/kernel/../../include/params.h \
+  /home/lxc/workspace/bdbm_drv_fine_grained/frontend/kernel/../../common/utils/utime.h \
+  /home/lxc/workspace/bdbm_drv_fine_grained/frontend/kernel/../../common/utils/usync.h \
+  include/generated/uapi/linux/version.h \
+  include/linux/semaphore.h \
+  /home/lxc/workspace/bdbm_drv_fine_grained/frontend/kernel/../../include/params.h \
+  /home/lxc/workspace/bdbm_drv_fine_grained/frontend/kernel/../../include/debug.h \
+    $(wildcard include/config/enable/msg.h) \
+    $(wildcard include/config/enable/debug.h) \
+  /home/lxc/workspace/bdbm_drv_fine_grained/frontend/kernel/../../common/utils/ufile.h \
   include/linux/fs.h \
     $(wildcard include/config/fs/posix/acl.h) \
     $(wildcard include/config/security.h) \
@@ -625,7 +645,6 @@ deps_/home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../common/dev_st
   include/linux/pid.h \
   include/linux/capability.h \
   include/uapi/linux/capability.h \
-  include/linux/semaphore.h \
   include/uapi/linux/fiemap.h \
   include/linux/migrate_mode.h \
   include/linux/percpu-rwsem.h \
@@ -655,31 +674,8 @@ deps_/home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../common/dev_st
   arch/x86/include/asm/smap.h \
     $(wildcard include/config/x86/smap.h) \
   arch/x86/include/asm/uaccess_64.h \
-  include/linux/poll.h \
-  include/uapi/linux/poll.h \
-  arch/x86/include/uapi/asm/poll.h \
-  include/uapi/asm-generic/poll.h \
-  include/linux/cdev.h \
-  include/linux/device.h \
-    $(wildcard include/config/debug/devres.h) \
-    $(wildcard include/config/generic/msi/irq/domain.h) \
-    $(wildcard include/config/pinctrl.h) \
-    $(wildcard include/config/generic/msi/irq.h) \
-    $(wildcard include/config/dma/cma.h) \
-    $(wildcard include/config/of.h) \
-    $(wildcard include/config/devtmpfs.h) \
-    $(wildcard include/config/sysfs/deprecated.h) \
-  include/linux/klist.h \
-  include/linux/pinctrl/devinfo.h \
-  include/linux/pinctrl/consumer.h \
-  include/linux/seq_file.h \
-  include/linux/pinctrl/pinctrl-state.h \
-  include/linux/ratelimit.h \
-  arch/x86/include/asm/device.h \
-    $(wildcard include/config/x86/dev/dma/ops.h) \
-    $(wildcard include/config/intel/iommu.h) \
-    $(wildcard include/config/amd/iommu.h) \
-  include/linux/pm_wakeup.h \
+  include/linux/buffer_head.h \
+  include/linux/pagemap.h \
   include/linux/mm.h \
     $(wildcard include/config/ppc.h) \
     $(wildcard include/config/parisc.h) \
@@ -721,20 +717,8 @@ deps_/home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../common/dev_st
   include/linux/vm_event_item.h \
     $(wildcard include/config/memory/balloon.h) \
     $(wildcard include/config/balloon/compaction.h) \
-  /home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../../include/bdbm_drv.h \
-  /home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../../include/params.h \
-  /home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../../common/utils/utime.h \
-  /home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../../common/utils/usync.h \
-  include/generated/uapi/linux/version.h \
-  /home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../../include/debug.h \
-    $(wildcard include/config/enable/msg.h) \
-    $(wildcard include/config/enable/debug.h) \
-  /home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../../include/params.h \
-  /home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../../common/utils/uthread.h \
-  include/linux/delay.h \
-  arch/x86/include/asm/delay.h \
-  include/asm-generic/delay.h \
-  include/linux/kthread.h \
+  include/linux/highmem.h \
+  include/linux/uaccess.h \
   include/linux/sched.h \
     $(wildcard include/config/sched/debug.h) \
     $(wildcard include/config/lockup/detector.h) \
@@ -853,10 +837,55 @@ deps_/home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../common/dev_st
     $(wildcard include/config/cgroup/hugetlb.h) \
     $(wildcard include/config/cgroup/pids.h) \
     $(wildcard include/config/cgroup/debug.h) \
-  /home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../common/dev_params.h \
-  /home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../common/dev_stub.h \
-  /home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../../common/utils/umemory.h \
+  include/linux/hardirq.h \
+  include/linux/ftrace_irq.h \
+    $(wildcard include/config/ftrace/nmi/enter.h) \
+  include/linux/vtime.h \
+  include/linux/context_tracking_state.h \
+    $(wildcard include/config/context/tracking.h) \
+  include/linux/static_key.h \
+  arch/x86/include/asm/hardirq.h \
+    $(wildcard include/config/x86/thermal/vector.h) \
+    $(wildcard include/config/x86/mce/threshold.h) \
+    $(wildcard include/config/x86/mce/amd.h) \
+    $(wildcard include/config/hyperv.h) \
+  include/linux/irq.h \
+    $(wildcard include/config/irq/domain/hierarchy.h) \
+    $(wildcard include/config/generic/pending/irq.h) \
+    $(wildcard include/config/hardirqs/sw/resend.h) \
+    $(wildcard include/config/generic/irq/legacy/alloc/hwirq.h) \
+    $(wildcard include/config/generic/irq/legacy.h) \
+  include/linux/irqhandler.h \
+  include/linux/irqreturn.h \
+  include/linux/irqnr.h \
+  include/uapi/linux/irqnr.h \
+  include/linux/io.h \
+  arch/x86/include/asm/irq.h \
+  arch/x86/include/asm/irq_regs.h \
+  include/linux/irqdesc.h \
+    $(wildcard include/config/irq/preflow/fasteoi.h) \
+    $(wildcard include/config/sparse/irq.h) \
+    $(wildcard include/config/handle/domain/irq.h) \
+  arch/x86/include/asm/hw_irq.h \
+    $(wildcard include/config/hpet/timer.h) \
+    $(wildcard include/config/dmar/table.h) \
+    $(wildcard include/config/ht/irq.h) \
+    $(wildcard include/config/x86/uv.h) \
+  include/linux/profile.h \
+    $(wildcard include/config/profiling.h) \
+  arch/x86/include/asm/sections.h \
+    $(wildcard include/config/debug/rodata.h) \
+  include/asm-generic/sections.h \
+  arch/x86/include/asm/cacheflush.h \
+    $(wildcard include/config/debug/rodata/test.h) \
+  include/asm-generic/cacheflush.h \
+  include/linux/hugetlb_inline.h \
+  /home/lxc/workspace/bdbm_drv_fine_grained/frontend/kernel/../../common/utils/umemory.h \
+  /home/lxc/workspace/bdbm_drv_fine_grained/frontend/kernel/../../ftl/hlm_reqs_pool.h \
+  /home/lxc/workspace/bdbm_drv_fine_grained/frontend/kernel/../../ftl/algo/abm.h \
+  /home/lxc/workspace/bdbm_drv_fine_grained/frontend/kernel/../../ftl/algo/page_ftl.h \
+  /home/lxc/workspace/bdbm_drv_fine_grained/frontend/kernel/../../ftl/pmu.h \
 
-/home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../common/dev_stub.o: $(deps_/home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../common/dev_stub.o)
+/home/lxc/workspace/bdbm_drv_fine_grained/frontend/kernel/../../ftl/algo/page_ftl.o: $(deps_/home/lxc/workspace/bdbm_drv_fine_grained/frontend/kernel/../../ftl/algo/page_ftl.o)
 
-$(deps_/home/lxc/workspace/bdbm_drv_fine_grained/devices/ramdrive/../common/dev_stub.o):
+$(deps_/home/lxc/workspace/bdbm_drv_fine_grained/frontend/kernel/../../ftl/algo/page_ftl.o):
